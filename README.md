@@ -19,10 +19,10 @@ Use `data-trace-label` attribute.
 ### Event Category
 `Browser` `Version` / `OS`
 ### Event Action
-`click` => `a`, `button`, `label`, `img`
-`focus` => `input`, `textarea`, `select`
-`change` => `input`, `textarea`, `select`
-`scroll`
+- `click` => `a`, `button`, `label`, `img`
+- `focus` => `input`, `textarea`, `select`
+- `change` => `input`, `textarea`, `select`
+- `scroll`
 ### Event Label
 `this.dataset.traceLabel` or DOM summary.
 
