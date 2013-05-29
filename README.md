@@ -18,11 +18,13 @@ Use `data-trace-label` attribute.
 ## Data & Reports
 ### Event Category
 `Browser` `Version` / `OS`
+
 ### Event Action
 - `click` => `a`, `button`, `label`, `img`
 - `focus` => `input`, `textarea`, `select`
 - `change` => `input`, `textarea`, `select`
 - `scroll`
+
 ### Event Label
 `this.dataset.traceLabel` or DOM summary.
 
