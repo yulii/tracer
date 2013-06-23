@@ -5,7 +5,11 @@ Event Tracking Framework for Google Analytics.
 ## Usage
 Load `tracer.js` file.
 ```html
-<script src="/lib/tracer.js" type="text/javascript"></script>
+<script>
+  (function(w,d,t,s,r,a,m){w['TracerObject']=r,w[r]=w[r]||function(f){w[r]=f},
+  a=d.createElement(t),m=d.getElementsByTagName(t)[0];a.async=1;a.src=s;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//tracer.js','trc');
+</script>
 ```
 
 ### Customized Labels
