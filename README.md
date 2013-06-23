@@ -8,7 +8,7 @@ Load `tracer.js` file.
 <script>
   (function(w,d,t,s,r,a,m){w['TracerObject']=r,w[r]=w[r]||function(f){w[r]=f},
   a=d.createElement(t),m=d.getElementsByTagName(t)[0];a.async=1;a.src=s;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//raw.github.com/yulii/tracer/v0.0.1/lib/tracer.js','trc');
+  })(window,document,'script','//raw.github.com/yulii/tracer/v0.0.2/lib/tracer.js','trc');
 </script>
 ```
 
