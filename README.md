@@ -11,6 +11,12 @@ Load `tracer.js` file.
   })(window,document,'script','//raw.github.com/yulii/tracer/v0.0.2/lib/tracer.js','trc');
 </script>
 ```
+and define tracking function
+```js
+trc(function(category, action, label, value) {
+  ga('send', 'event', category, action, label, value||1, !0); // Google Analytics API
+});
+```
 
 ### Customized Labels
 Use `data-trace-label` attribute.
